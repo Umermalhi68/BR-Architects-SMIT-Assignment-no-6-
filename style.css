@@ -199,6 +199,83 @@ main .container2 {
 
 }
 
+/* contact heading */
+main .heading_contact {
+    width: 90%;
+    margin: 5rem auto 0rem auto;
+}
+
+main .heading_contact p:first-child {
+    color: black;
+    padding: 0.8rem 0.5rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+main .heading_contact p:last-child {
+    color: black;
+    padding: 0.8rem 0rem;
+    font-size: 0.8rem;
+    line-height: 1.1rem;
+    font-weight: 400;
+}
+
+/* Form container3 */
+main .container3 {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container3 input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgba(167, 167, 167, 0.669);
+    margin-bottom: 1rem;
+}
+
+.container3 button {
+    padding: 9px 25px;
+    border: none;
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: all 0.3s;
+}
+
+.container3 button:hover {
+    background-color: rgb(47, 47, 47);
+}
+
+/* Map */
+.map {
+    max-width: 90%;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.map img {
+    width: 100%;
+}
+
+/* footer */
+footer {
+    background-color: black;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+}
+
+footer a {
+    color: white;
+}
+
 
 @media (max-width:992px) {
     main .container1 .img_group {
